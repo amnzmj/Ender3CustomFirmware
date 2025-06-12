@@ -1657,7 +1657,10 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 }
+//stock ender 3
+//#define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 }
+//sprite pro + bltouch
+#define NOZZLE_TO_PROBE_OFFSET { -31.9, -40.7, 0 }
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
